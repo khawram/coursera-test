@@ -1,0 +1,54 @@
+body{
+	background-color: #f2f1e8;
+	color: #000;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	background-color: #eeebe2;
+    padding: 0;
+    margin: 0;
+}
+#brand{
+	color: #000;
+}
+#navbar{
+	background-color:#eeebe2;
+    padding: 20px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+    text-align: center;
+    background-color: #eeebe2;
+    	color: #000;
+    font-size: 20px;
+}
+#nav-list a:hover {
+    background: #f2f1e8;
+}
+#ourmenu{
+  padding: 20px;
+}
+
+#chicken,#beef,#sushi{
+	overflow: hidden;
+	
+   }
+#menu{
+	padding: 5px 20px 10px;
+	margin-bottom: 20px;
+	background-color: #ebe9e1;
+	font-family: 'Roboto', sans-serif;
+}
+@media(min-width:992px){
+   #nav-list{
+   	display: none;
+   }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    #nav-list{
+   	display: none;
+   }
+}
